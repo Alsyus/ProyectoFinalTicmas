@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Sans-serif;
+}
+.col8 {
+  padding-right: 5px;
+  border-right: 520px solid black;
+}
+
+#datos {
+  background-color: #acacac;
+  padding-left: 10px;
+}
+
+#ListaDatosPersonales {
+  list-style-type: none;
+}
+.container {
+  float:left;
+  box-sizing: border-box;
+}
+#encabezado {
+  background-color: #4f8dc4;
+}
+.titulo {
+  background-color: none;
+  padding-top: 2%;
+}
+
+#aboutMe {
+  background-color: #acacac;
+}
+.logos {
+  width: 25%;
+  height: auto;
+  padding: 2%;
+}
+#foto {
+  width: 40%;
+  height: auto;
+  border-radius: 50%;
+}
+#datosPersonales p {
+  color: white;
+}
+/* nav bar*/
+.navbar {
+  display: none;
+  float: right;
+
+}
+#git{
+  display: none;
+  position:fixed;
+  right: 0;
+  bottom:0;
+  text-decoration: underline;
+  list-style: none;
+  text-decoration: none;
+  background-color: #4f8dc4;
+  
+  
+}
+#git li a {
+  text-decoration: underline;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  
+
+}
+#gitlogo {
+  width: 25%;
+  height: auto;
+  position: relative;
+  float: right;
+}
+#myworks {
+  display: in-line;
+  position: absoulte;
+  color: white;
+  float: right;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  background-color: #4f8dc4;
+}
+
+#gitlogo:hover {
+  cursor: pointer;
+}
+
+.separador {
+  border: 5px solid #4f8dc4;
+}
+span h1{
+  font-weight: bold;
+}

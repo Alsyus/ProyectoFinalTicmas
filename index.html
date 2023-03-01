@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body onload="generarUsuario()">
+
+  <div class="container">
+
+    <div class="row">
+      <header id="encabezado">
+        <h1>
+          <p><span id="nombre"></span>
+          </p>
+          Certified Full Stack Web Developer
+          <div onclick="menu()"><img src=" https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo-768x432.png" id="gitlogo"></div>
+        </h1>
+        <p class="datosPersonales"> <span id="dir"></span> <span id="cell"> </span> <span id="email"> </span> </p>
+      </header>
+
+      <div class="col-4" id="datos">
+
+        <section class="aboutMe">
+          <img id="foto" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" alt="imagen de perfil"></img>
+          <h2 class="titulo"> ABOUT ME </h2>
+
+          <p>Dedicated and efficient full stack developer with 6+ years experience in application layers, presentation layers, and databases. Certified in both F/E and B/E technologies. Spearheaded successful transition from LAMP stack to MEAN which cut latency by 40% and increased effectiveness of database administrators by 20%. Seeking to further improve HTML5 and CSS3 skills as the future full stack developer at Atmospheric Solutions.
+          <p>
+        </section>
+
+        <section class="idiomas">
+          <h3 id="encabezado">Languages</h3>
+          <ul>
+            <li>
+              Irish: native
+            </li>
+            <li>English: Upper-Mid level</li>
+            <li>German: Begginer</li>
+          </ul>
+        </section>
+        <section class="software">
+          <h3 id="encabezado">Softwares</h3>
+          <ul>
+            <li>Excel</li>
+            <li>PowerPoint</li>
+            <li>Photoshop</li>
+            <li>Indesign</li>
+            <li>PowerBi</li>
+          </ul>
+        </section>
+        <section class="redes" >
+          <h3 id="encabezado"> Social Networks</h3> </section>
+          <a href="https://www.linkedin.com/"><img class="logos" id="logoLink" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="logo linkedin"></a>
+          <a href="https://www.facebook.com/"><img class="logos"  id=" logoFace" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/900px-Facebook_f_logo_%282019%29.svg.png" alt="logo facebook"></a>
+          <a href="https://www.twiiter.com"><img class="logos"id="logoTwit" src="https://cdn-icons-png.flaticon.com/512/124/124021.png" alt="logo twitter"></a>
+          <a href="https://www.instagram.com"><img class="logos" id="logoInsta" src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="logo instagram"></a>
+        </section>
+      </div>
+
+      <div class="col-8" id="lateral">
+
+        <section class="education">
+          <h4 class="titulo">EDUCATION </h4>
+          <p>Bachelor of Science in Software Development
+
+            Champlain College, Burlington, VT Graduation: 2011
+          <p>
+
+            Relevant Coursework: Operating Systems Architecture, Linux/Unix Programming, Usability in Website and Software Design, C++ Programming I & II, Web Page Development, Relational Database Design & SQL, Data Engineering, Advanced Software Programming.
+
+          </P>
+        </section>
+        <div class="separador"></div>
+        <section class="Experiencia">
+          <h4 class="titulo">Work Experience</h4>
+          <ol>
+            <li>Full Stack Developer
+              May 2016–June 2019
+              General Gaming, Boston, MA
+
+              Key Qualifications & Responsibilities
+
+              Developed full-stack web applications which processed, analyzed, and rendered data visually.
+              Liaised with back end developers, front end developers, quality assurance testers, and CTO as needed.
+              Managed time-sensitive updates, including content changes and database upgrades.
+              Planned, wrote, and debugged web applications and software with complete accuracy.
+              Key Achievements
+
+              Spearheaded transition from LAMP stack to MEAN stack, reducing latency by 40% and increasing database admin effectiveness by 20%.</li>
+
+            <li>Junior Full Stack Developer
+              December 2012–April 2016
+              Crazy Lazy Apps, Los Angeles, CA
+
+              Key Qualifications & Responsibilities
+
+              Maximized applications’ efficiency, data quality, scope, operability, and flexibility.
+              Used various ideas from distributed computing, large-scale design, real-time data processing, data storage, ML, and AI to solve challenging dataset problems.
+              Managed, optimized, and updated PHP databases as necessary.
+              Developed app integration with REST / SOAP and other APIs for Google Maps, social media logins, payment processors, and other services.
+            </li>
+          </ol>
+        </section>
+        </aside>
+      </div>
+    </div>
+    <ul id="git">
+      <li><a href="index.html">Web Design</a></li>
+      <li><a href="index.html">Apps</a></li>
+      <li><a href="index.html">Games</a></li>
+    </ul>
+  </div>
+</body>
+
+</html>
