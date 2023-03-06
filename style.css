@@ -3,11 +3,56 @@
   padding: 0;
   font-family: Sans-serif;
 }
+
 .col8 {
   padding-right: 5px;
   border-right: 520px solid black;
 }
 
+body{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+body > * {
+  margin: auto;
+}
+
+.floating{
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-left: 48px;
+  transition: all 0.33s ease-in-out;
+  transform: translateX(-100%);
+}
+
+.floating > * {
+  transition: all 0.33s ease-in-out;
+  opacity: 0;
+}
+
+.floating:hover {
+  margin-left:0;
+  transform: translateX(0%);
+}
+
+.floating:hover > * {
+  opacity: 1;
+}
+
+@media (min-width: 576px) { 
+  .floating{
+    position: relative;
+    transform: translateX(0%);
+    margin: 0px;
+  }
+  .floating > * {
+    opacity: 1;
+  }
+
+ }
 #datos {
   background-color: #acacac;
   padding-left: 10px;

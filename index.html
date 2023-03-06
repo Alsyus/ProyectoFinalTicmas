@@ -11,23 +11,27 @@
   <script src="script.js"></script>
 </head>
 
-<body onload="generarUsuario()">
+<body class="ms-5 ms-sm-0" onload="generarUsuario()">
 
-  <div class="container">
-
+  <div class="container-fluid">
     <div class="row">
-      <header id="encabezado">
-        <h1>
-          <p><span id="nombre"></span>
-          </p>
-          Certified Full Stack Web Developer
+      <header id="encabezado" class="d-flex justify-content-between p-3">
+        <div>
+          <h1>
+            <span id="nombre"></span>
+          </h1>
+          <h2>
+
+            Certified Full Stack Web Developer
+          </h2>
+            <p class="datosPersonales"> <span id="dir"></span> <span id="cell"> </span> <span id="email"> </span> </p>
+        </div>
+        <div class="d-flex align-items-end">
           <div onclick="menu()"><img src=" https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo-768x432.png" id="gitlogo"></div>
-        </h1>
-        <p class="datosPersonales"> <span id="dir"></span> <span id="cell"> </span> <span id="email"> </span> </p>
+        </div>
       </header>
 
-      <div class="col-4" id="datos">
-
+      <div class="col-8 col-sm-4 floating" id="datos">
         <section class="aboutMe">
           <img id="foto" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" alt="imagen de perfil"></img>
           <h2 class="titulo"> ABOUT ME </h2>
@@ -65,7 +69,7 @@
         </section>
       </div>
 
-      <div class="col-8" id="lateral">
+      <div class="col-12 col-sm-8" id="lateral">
 
         <section class="education">
           <h4 class="titulo">EDUCATION </h4>
